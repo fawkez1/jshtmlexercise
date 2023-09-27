@@ -36,4 +36,15 @@ pInsidePink.classList.add('pInsidePink');
 pInsidePink.textContent = "ME TOO!";
 pink.appendChild(pInsidePink);
 
+// button with callback function
+const btn = document.createElement("button");
+btn.classList.add('btn');
+btn.style.height = "30px";
+btn.style.width = "202px";
+btn.style.margin = "20px"
+btn.addEventListener('click', function (e) {
+    console.log(e);
+  });
 
+container.appendChild(btn);
+  
